@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: relative;
+  display: flex;
+}
+
+.background {
+  background: absolute;
+  height: 100vh;
+  width: auto;
+  z-index: -1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10rem;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+@font-face {
+  font-family: norse-bold;
+  src: url(Norse-Bold.otf);
+}
+
+.logo-text {
+  font-family: norse-bold, sans-serif;
+  color: white;
+  font-size: 75px;
+}
+
+.credit {
+  width: 100%;
+  position: absolute;
+  color: white;
+  top: 96vh;
+  text-align: center;
+}
