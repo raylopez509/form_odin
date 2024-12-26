@@ -54,3 +54,7 @@ body {
   top: 96vh;
   text-align: center;
 }
+
+.main {
+  margin: 2rem;
+}

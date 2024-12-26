@@ -25,10 +25,27 @@
           </div>
           <div>You <em>know</em> you want to.</div>
         </div>
-        <div>Let's do this!</div>
-        <form>input</form>
-        <button>Create Account</button>
-        <div>Already have an account? Log in</div>
+        <div class="form">
+          <div>Let's do this!</div>
+          <form>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" />
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="confirmPassword" id="confirmPassword" />
+          </form>
+        </div>
+        <div class="submit">
+          <button>Create Account</button>
+          <div>Already have an account? Log in</div>
+        </div>
       </div>
     </div>
     <script src="form.js"></script>
