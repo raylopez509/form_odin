@@ -101,7 +101,29 @@ input {
   width: 250px;
   height: 25px;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 1px solid #e5e7eb;
   padding: 1px 13px;
   font-size: 16px;
+}
+
+.submit {
+  padding: 2rem;
+}
+
+.submit button {
+  background-color: #596d48;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 1px 1px 3px gray;
+  margin-bottom: 1rem;
+}
+
+.submit a {
+  text-decoration-line: none;
+  font-weight: 600;
+  color: #596d48;
 }
